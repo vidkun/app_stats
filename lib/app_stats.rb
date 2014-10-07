@@ -3,6 +3,8 @@ require "app_stats/version"
 module AppStats
   module Stats
 
+    WillPaginate.per_page = 10
+    
     #Sort the Ruby files in your project by number of has_many
     PIPE_MINUS_COVERAGE = '| grep -v "coverage"'
     CURRENT_FILE = File.basename(__FILE__)
