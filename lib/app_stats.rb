@@ -28,7 +28,7 @@ module AppStats
     end
 
     def self.get_loc_count
-      get_raw(LOC_COUNT_SEARCH)
+      get_raw(LOC_COUNT_SEARCH).split("\n")
     end
   end
 end
