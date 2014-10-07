@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = AppStats::VERSION
   spec.authors       = ["Ryan LeViseur"]
   spec.email         = ["vidkun@vlfservices.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "AppStats - A gem to get statistics for your rails app."
+  spec.description   = "Uses shell commands to get stats about your rails app. Requires awk to be installed."
   spec.homepage      = ""
   spec.license       = "MIT"
 
