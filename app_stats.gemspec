@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files       = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  spec.files       = Dir["{app,config,db,lib}/**/*", "LICENSE.txt", "Rakefile", "README.md"]
   spec.test_files  = Dir["test/**/*"]
   spec.require_paths = ["lib"]
 
