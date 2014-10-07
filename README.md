@@ -1,8 +1,14 @@
 # AppStats
 
-TODO: Write a gem description
+Uses shell commands to get stats about your rails app. 
+Requires awk to be installed on the system hosting your app.
 
 ## Installation
+
+Install awk on the system hosting your app.
+For OS X:
+
+    brew install awk
 
 Add this line to your application's Gemfile:
 
